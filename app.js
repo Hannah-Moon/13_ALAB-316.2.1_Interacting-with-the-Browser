@@ -29,9 +29,9 @@
     }
 }
 
-let score = 0
-let scoreboard= document.querySelector('.points')
-scoreboard.innerHTML = score
+// let score = 0
+// let scoreboard= document.querySelector('.points')
+// scoreboard.innerHTML = score
 
 const askQuestion1 = (question,solution) => {
     let answer = prompt(question)
