@@ -3,7 +3,7 @@
 </h2>
 
 <div align="center">
-  <img alt="Demo" src="bmi.gif">
+  <img alt="Demo" src="barbie.gif">
 </div>
 
 <br/>
