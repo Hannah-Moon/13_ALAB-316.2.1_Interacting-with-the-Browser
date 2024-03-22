@@ -1,9 +1,12 @@
 // Get the DOM elements and initialize the game
+
+// --------------------- {Window visit alert}
+
 window.onload = function() {
     alert("Welcome to 'Name Your Barbie' game! 🎀🛼🌸🛍️👱🏻‍♀️🎀\nDo you want to continue?");
 };
 
-// --------------------- {Overlay on and off}
+// --------------------- {Q & A Logic}
 
 let questionBox = {
     q1: {
