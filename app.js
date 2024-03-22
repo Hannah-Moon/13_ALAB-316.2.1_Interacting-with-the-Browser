@@ -26,6 +26,8 @@ let questionBox = {
     },
 }
 
+// --------------------- {Reusable Function}
+
 const askQuestion = (question, solution, qNumber) => {
     let answer = prompt(question);
     if (answer !== null) {
@@ -40,6 +42,8 @@ const askQuestion = (question, solution, qNumber) => {
     }
 };
 
+// --------------------- {Interaction for each borbie}
+
 document.getElementById('barbie01').addEventListener('click', function() {
     askQuestion(questionBox.q1.q, questionBox.q1.a, questionBox.q1.id);
 });
@@ -52,13 +56,15 @@ document.getElementById('barbie03').addEventListener('click', function() {
     askQuestion(questionBox.q3.q, questionBox.q3.a, questionBox.q3.id);
 });
 
-
+// --------------------- {Display answer to answerTile}
 const displayCorrectAnswer = (solution, qNumber) => {
     const answerTile = document.getElementById(`answerTile0${qNumber}`);
     answerTile.classList.add('correct');
     answerTile.innerHTML = `<h4>${solution}</h4>`;
 };
 
+
+// ---------------------------------{Old Code w/o resuable function}
 
 // Barbie 01 - Author
 
