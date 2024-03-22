@@ -11,7 +11,7 @@
 ## TL;DR
 
 You can fork this repo to modify and make changes of your own. Thanks. 
-Click  <a href="https://hannah-moon.github.io/13_ALAB-316.2.1_Interacting-with-the-Browser/">here</a> to see the live demo.
+Click  <a href="">here</a> to see the live demo.
 
 
 ## Built With
