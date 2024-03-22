@@ -23,7 +23,7 @@ The correct answers are:
 
 This project was built using these technologies.
 
-- JavaScript: Loop and call action 
+- JavaScript: Loop and call functions
 - HTML
 - CSS
 
