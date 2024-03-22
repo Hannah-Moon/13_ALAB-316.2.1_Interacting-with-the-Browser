@@ -19,18 +19,19 @@ Use DOM manipulation to give a visual indication of the game's progress in some 
             <header class="title">
                 <h1>Name Your Barbie!</h1>
                 <br>
-                <h2 class="subTitle">Tonight's girls night! Pick a Barbie to co-host your Sunday afternoon tea-party!</h2>
+                <h2 class="subTitle">Click anywhere on a Barbie's picture to prompt a pop up to answer your question.</h2>
             </header>
 
             <p class="high"></p>
 
+            
             <section class="cardContainer">
 
                 <div class="cards">
                     <div class="clickablePicture">
-                        <img class="barbie01" id="barbie01" onclick="askQuestion1(questionBox.q1.q,questionBox.q1.a)" src="https://img.buzzfeed.com/store-an-image-prod-us-east-1/AlFu2DIZK.png?crop=1368%3A1368%3B129%2C246&downsize=320%3A*&output-format=auto&output-quality=auto" alt="Author Barbie">
+                        <img id="barbie01" onclick="askQuestion1(questionBox.q1.q,questionBox.q1.a)" src="https://img.buzzfeed.com/store-an-image-prod-us-east-1/AlFu2DIZK.png?crop=1368%3A1368%3B129%2C246&downsize=320%3A*&output-format=auto&output-quality=auto" alt="Author Barbie">
                     </div>
-                    <div class="answerTile">
+                    <div class="answerTile" id="answerTile01">
                         <h4>_ _ _ _ _ _ Barbie</h4><br>
                         <p>* Hint: I love to read.*</p>
                     </div>
@@ -38,9 +39,9 @@ Use DOM manipulation to give a visual indication of the game's progress in some 
 
                 <div class="cards">
                     <div class="clickablePicture">
-                        <img class="barbie02" id="barbie02" onclick="askQuestion2(questionBox.q2.q,questionBox.q2.a)" src="https://img.buzzfeed.com/store-an-image-prod-us-east-1/9wieuKeEk.png?crop=1385%3A1385%3B127%2C208&downsize=320%3A*&output-format=auto&output-quality=auto" alt="Physicist Barbie">
+                        <img id="barbie02" onclick="askQuestion2(questionBox.q2.q,questionBox.q2.a)" src="https://img.buzzfeed.com/store-an-image-prod-us-east-1/9wieuKeEk.png?crop=1385%3A1385%3B127%2C208&downsize=320%3A*&output-format=auto&output-quality=auto" alt="Physicist Barbie">
                     </div>
-                    <div class="answerTile">
+                    <div class="answerTile" id="answerTile02">
                         <h4>_ _ _ _ _ _ _ _ _ Barbie</h4><br>
                         <p>* Hint: I love science.*</p>
                     </div>
@@ -49,9 +50,9 @@ Use DOM manipulation to give a visual indication of the game's progress in some 
 
                 <div class="cards">
                     <div class="clickablePicture">
-                        <img class="barbie03" id="barbie03" onclick="askQuestion3(questionBox.q3.q,questionBox.q3.a)" src="https://img.buzzfeed.com/store-an-image-prod-us-east-1/C-9y_8wZ5.png?crop=1421%3A1421%3B105%2C193&downsize=320%3A*&output-format=auto&output-quality=auto" alt="Physicist Barbie">
+                        <img id="barbie03" onclick="askQuestion3(questionBox.q3.q,questionBox.q3.a)" src="https://img.buzzfeed.com/store-an-image-prod-us-east-1/C-9y_8wZ5.png?crop=1421%3A1421%3B105%2C193&downsize=320%3A*&output-format=auto&output-quality=auto" alt="Physicist Barbie">
                     </div>
-                    <div class="answerTile">
+                    <div class="answerTile" id="answerTile03">
                         <h4>_ _ _ _ _ _ _ Barbie</h4><br>
                         <p>* Hint: I live in water.*</p>
                     </div>
